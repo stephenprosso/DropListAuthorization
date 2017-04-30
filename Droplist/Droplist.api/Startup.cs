@@ -14,6 +14,7 @@ namespace Droplist.api
 	{
 		public void Configuration(IAppBuilder app)
 		{
+			ConfigureOAuth(app);
 			var config = new HttpConfiguration();
 			WebApiConfig.Register(config);
 			app.UseCors(Microsoft.Owin.Cors.CorsOptions.AllowAll);

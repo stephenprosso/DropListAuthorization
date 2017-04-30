@@ -136,7 +136,12 @@
       <DependentUpon>201704272112074_InitialMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Building.cs" />
+    <Compile Include="Models\Department.cs" />
+    <Compile Include="Models\Driver.cs" />
+    <Compile Include="Models\Droplist.cs" />
     <Compile Include="Models\RegistrationModel.cs" />
+    <Compile Include="Models\Stocker.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\LocalAuthorizationProvider.cs" />
