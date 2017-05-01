@@ -70,3 +70,4 @@ C:\Users\Stephenprosso\Documents\Dev\DropListAuthentication\Droplist\Droplist.ap
 C:\Users\Stephenprosso\Documents\Dev\DropListAuthentication\Droplist\Droplist.api\obj\Debug\Droplist.api.pdb
 C:\Users\Stephenprosso\Documents\Dev\DropListAuthentication\Droplist\Droplist.api\obj\Debug\Droplist.api.Migrations.InitialMigration.resources
 C:\Users\Stephenprosso\Documents\Dev\DropListAuthentication\Droplist\Droplist.api\obj\Debug\Droplist.api.csproj.GenerateResource.Cache
+C:\Users\Stephenprosso\Documents\Dev\DropListAuthentication\Droplist\Droplist.api\obj\Debug\Droplist.api.Migrations.UpdateDatabase.resources

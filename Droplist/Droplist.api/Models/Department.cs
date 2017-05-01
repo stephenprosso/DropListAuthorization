@@ -10,12 +10,10 @@ namespace Droplist.api.Models
 		public int DepartmentId { get; set; }
 		public int DepartmentName { get; set; }
 		public int BuildingId { get; set; }
-		public int DriverId { get; set; }
-		public int StockerId { get; set; }
-
 
 		//navigation properties
-		public virtual ICollection<Driver> Drivers { get; set; }
-		public virtual ICollection<Stocker> Stockers { get; set; }
+		public virtual ICollection<Droplist> Droplists { get; set; }
+		public virtual ICollection<Section> Sections { get; set; }
+
 	}
 }

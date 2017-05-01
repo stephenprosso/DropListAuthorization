@@ -9,6 +9,7 @@ namespace Droplist.api.Models
 	public class User : IdentityUser
 
 	{
-		//custom fields + relationsships go here
+		public virtual Employee Employee { get; set; }
+	
 	}
 }

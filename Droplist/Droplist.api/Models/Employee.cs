@@ -5,17 +5,20 @@ using System.Web;
 
 namespace Droplist.api.Models
 {
-	public class Driver
+	public class Employee
 	{
-		// scalar properties
-
-		public int DriverId { get; set; }
+		public int EmployeeId { get; set; }
 		public string FirstName { get; set; }
 		public string LastName { get; set; }
+		public string EmailAddress { get; set; }
+		public string Cellphone { get; set; }
+		public string Address { get; set; }
 		public int EmployeeNumber { get; set; }
-
-		//navigation properties
+		public string Role { get; set; }
+		
 		public virtual ICollection<Droplist> Droplists { get; set; }
+		public virtual Building Building { get; set; }
+
 
 	}
 }

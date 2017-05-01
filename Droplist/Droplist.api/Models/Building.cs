@@ -10,11 +10,7 @@ namespace Droplist.api.Models
 		// Scalar Properties
 
 		public int BuildingId { get; set; }
-		public int DroplistId { get; set; }
 		public int BuildingNumber { get; set; }
-		public int DriverId { get; set; }
-		public int StockerId { get; set; }
-		public int EmployeeNumber { get; set; }
 		public string BuildingName { get; set; }
 		public string Telephone { get; set; }
 		public string StreetAddress { get; set; }
@@ -24,9 +20,10 @@ namespace Droplist.api.Models
 
 		// Navigation properties
 		public virtual ICollection<Droplist> Droplists { get; set; }
-		public virtual ICollection<Stocker> Stockers { get; set; }
-		public virtual ICollection<Driver> Drivers { get; set; }
-		public virtual ICollection<Department> Departments { get; set; }
+		public virtual ICollection<Employee> Employees { get; set; }
+		public virtual ICollection<Section> Sections { get; set; }
+		public virtual ICollection<Product> Products { get; set; }
+
 
 	}
 }
